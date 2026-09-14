@@ -6,8 +6,8 @@
 
 :root{
     --tekst: rgb(177, 145, 95);
-    --background: rgb(206, 189, 165);
-    --dark-background: rgb(176, 158, 123);
+    --background: #ede3dd;
+    --dark-background: #b49c8d;
 
 }
 
@@ -17,13 +17,16 @@ body{
 }
 
 nav {
-    position: sticky;
     top: 0;
 }
 
 nav a img{
     height: 100px;
     width: auto;
+}
+
+article{
+    font-size: 1.5rem;
 }
 
 .flexdemo{
@@ -66,13 +69,13 @@ nav a img{
 }
 
 .hero-text h1{
-    font-size: 2.5rem;
+    font-size: 4rem;
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
 
 .hero-text p{
-    font-size: 1rem;
+    font-size: 2rem;
     letter-spacing: 1px;
     margin-bottom: 30px;
 }
@@ -90,4 +93,125 @@ nav a img{
 
 .hero-btn:hover{
     background-color: #c48f8f;
+}
+
+
+.salgsikoner{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f0ece4;
+}
+
+.fordel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.fordel img{
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.fordel h2{
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    color: #7a2e2e;
+    font-weight: 600;
+}
+
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.højtalere{
+    margin-top: 80px;
+}
+
+.telefon{
+    width: 500px;
+    margin-left: auto;
+    margin-top: 120px;
+    display: block;
+}
+
+h3{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bolder;
+    color:#c48f8f;
+    margin-top: 80px;
+}
+
+.taske{
+    width: 100%;
+}
+
+.trustpilot{
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.tp-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.tp{
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+min-height: 220px;
+margin-top: 30px;
+}
+
+.citat img{
+    height: 200px;
+}
+
+.citat h4{
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    color: #7a2e2e;
+    font-weight: 600;
+}
+
+footer{
+    background-color: var(--dark-background);
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    gap: 4opx;
+    padding: 40px 60px;
+}
+
+.info h5{
+    margin-bottom: 10px;
+}
+
+h5{
+    font-size: 1.5rem;
+}
+
+.info ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info li{
+    margin-bottom: 6px;
 }
